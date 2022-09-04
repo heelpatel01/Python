@@ -1,0 +1,6 @@
+bool data type:-
+--------------------------
+represent boolean valur (true,false)
+
+-True--->1
+-False-->0

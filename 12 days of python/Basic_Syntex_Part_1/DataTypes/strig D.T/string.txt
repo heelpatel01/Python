@@ -1,0 +1,32 @@
+STRING?
+--->STRING MEANS COLLECTIONS OF CHARACTERS.
+CHARACTER-->A to Z || a to z || 0 to 9 || Special Symbols(!,@,#,$,*,<,>,etc...) || 
+
+we can crate string using 'String'   OR    "String"  OR   '''String'''  OR  """string"""
+
+accesing elements of string by using:-
+-index
+-slice operator
+
+-index
+msg="Be_A_Consistance"
+indexing---> 
+
+CHARACTER(indexing position)
+B(0),e(1),_(2),A(3),_(4),C(5),o(6),n(7),s(8),i(9),s(10),t(11),a(12),n(13),c(14),e(15)
+
+msg="Be_A_Consistance"
+print(msg)
+print(msg[1])
+print(msg[-1]) #you can use nagative index also. which is starts 
+
+
+--------------------------------
+================================WHAT IS SLICE OPERATOR====================================
+-A slice represent a part or piece of a string
+SLICR--->PIECE
+
+*Syntex:-
+[start index: stop index: step size]
+
+ValueError: slice step cannot be zero (if you will write msg[1:15:0])
