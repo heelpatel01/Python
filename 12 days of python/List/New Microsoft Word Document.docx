@@ -1,0 +1,18 @@
+Accessing Elements Of List:
+
+We can access list Elementsusing index and slice operator.
+
+Accessing Using index:____
+
+l=[10,20,30,40,50,60,70,80,90,100]
+print(l[0])---->23
+print(l[1])---->20
+print(l[-1])---->100
+print(l[-2])---->90
+print(l[22])---->IndexError: out of index.
+
+Accessing Using slice operator:____
+
+l=[10,20,30,40,50,60,70,80,90,100]
+print(l[::])--->[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+print(l(2::2))--->[30,]
